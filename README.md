@@ -19,6 +19,8 @@ Add and Commit:
 
 Push in branch:
 
+    git checkout -b xyz (Switched to a new branch xyz)
+    --
     git push origin master (if need to checkin in master branch)
     or
     git push origin chitresh (if need to checkin in chitresh branch)
