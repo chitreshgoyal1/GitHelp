@@ -68,6 +68,14 @@ Resolve Conflicts:
     git add filename.rb
     git commit -m "using theirs"
     git pull origin branch_name
+    
+Resolve Multiple Conflicts: (Keep my changes)
+
+    grep -lr '<<<<<<<' . | xargs git checkout --ours
+    
+Resolve Multiple Conflicts: (Keep their changes)
+
+    grep -lr '<<<<<<<' . | xargs git checkout --theirs
 
 Revert Changes:
 
@@ -76,3 +84,9 @@ Revert Changes:
     git add .
     git commit -m "revert files"
     git push origin master
+
+Undo Commit:
+
+    git reset --soft HEAD~1 
+    
+    
