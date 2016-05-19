@@ -89,4 +89,6 @@ Undo Commit:
 
     git reset --soft HEAD~1 
     
-    
+Hard Reset:
+
+    git reset --hard origin/master
