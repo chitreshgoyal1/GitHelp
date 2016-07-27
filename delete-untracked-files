@@ -1,3 +1,7 @@
+To check what will be deleted
+git clean -f -n
+
+
 Delete untracked files
 git clean -f
 
