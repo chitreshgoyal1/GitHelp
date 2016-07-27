@@ -1,0 +1,5 @@
+Delete untracked files
+git clean -f
+
+Delete untracked directories
+git clean -fd
