@@ -1,0 +1,5 @@
+git branch
+-- select the branch in which you want to revert
+git reset --hard HEAD~1
+git push -f <remote> <branch>
+git push -f origin branch-xyz
