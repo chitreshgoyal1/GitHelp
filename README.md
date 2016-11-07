@@ -38,6 +38,7 @@ Delete File and then commit:
     git rm filename.extn
     git add -u
     git commit -m "message"
+       
     git push origin master
     
 Switch to master branch and update source code:
@@ -92,3 +93,9 @@ Undo Commit:
 Hard Reset:
 
     git reset --hard origin/master
+
+Agent Failure
+
+    https://help.github.com/articles/error-agent-admitted-failure-to-sign/
+    https://help.github.com/articles/testing-your-ssh-connection/
+    https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
