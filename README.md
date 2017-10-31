@@ -99,3 +99,12 @@ Agent Failure
     https://help.github.com/articles/error-agent-admitted-failure-to-sign/
     https://help.github.com/articles/testing-your-ssh-connection/
     https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server
+    
+Check commit history
+
+    git log (It will diplay all commits in latest to older order)
+    git commit 72b6e6c75053fa8e160dea3bea678f32a675ae7a (it will show specific commit)ss
+    git show --pretty="" --name-only 72b6e6c75053fa8e160dea3bea678f32a675ae7a (it will only list file name of specified commit)
+    git diff-tree --no-commit-id --name-only -r 72b6e6c75053fa8e160dea3bea678f32a675ae7a (same as above) 
+
+    
