@@ -32,6 +32,7 @@ Merge:
 Delete Branch:
 
     git push origin :chitresh (delete branch chitresh)
+    git branch -D :chitresh (delete branch from local)
 
 Delete File and then commit:
 
