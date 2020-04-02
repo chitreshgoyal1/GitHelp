@@ -108,4 +108,6 @@ Check commit history
     git show --pretty="" --name-only 72b6e6c75053fa8e160dea3bea678f32a675ae7a (it will only list file name of specified commit)
     git diff-tree --no-commit-id --name-only -r 72b6e6c75053fa8e160dea3bea678f32a675ae7a (same as above) 
 
+Git pull if conflict in pulling a branch 
     
+    git pull -s recursive -X theirs <remoterepo> <branch>
