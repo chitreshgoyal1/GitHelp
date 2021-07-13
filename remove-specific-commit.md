@@ -10,7 +10,8 @@ Problem: Remove commit 98y65r4 and 987xcrt
 
     Solution: There are two alternatives to this
 
-    Way 1: Revert a commit
+
+Way 1: Revert a commit
     
           It means it will revert that commit and create a new commit for same to keep it in history. 
           You would need to execute it twice (once per commit):
@@ -32,7 +33,8 @@ Problem: Remove commit 98y65r4 and 987xcrt
           git push
           This solution is safe because it does not make destructive operations on your remote repo.
 
-    Way 2: Interactive rebase
+Way 2: Interactive rebase
+
           It means it will delete both commit from history, there will be no track if the commit existed or not.
 
           rebase to an older commit
