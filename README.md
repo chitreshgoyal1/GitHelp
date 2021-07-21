@@ -33,6 +33,10 @@ Delete Branch:
 
     git push origin :chitresh (delete branch chitresh)
     git branch -D :chitresh (delete branch from local)
+    
+Delete Multiple Branch from local(unix):
+
+    git branch -d `git branch | grep "somename*"`
 
 Delete File and then commit:
 
